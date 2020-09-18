@@ -1,0 +1,21 @@
+{
+	"name": "geraskin_vm/guess-number",
+	"authors": [
+		{
+			"name": "Vyacheslav Geraskin",
+			"email": "geraskin.slava@mail.ru"
+		}
+	],
+	"require": {
+		"wp-cli/php-cli-tools": "^0.11.11"
+	},
+	"bin": [
+		"bin/guess-number.bat"
+	],
+	"autoload": {
+		"files": [
+			"src/Controller.php",
+			"src/View.php"
+		]
+	}
+}
