@@ -64,7 +64,7 @@ export function messageOutput(type_message) {
         block_showGame.style.display = 'none';
         block_result.style.display = 'flex';
         block_resultText.innerHTML = "Поздравляю! Ты отгадал число " + hidden_number +
-            " c " + (num_attempt - var_num_attempt) + "-й попытки";
+            " c " + (num_attempt - var_num_attempt + 1) + "-й попытки";
     }
     if (type_message === "loss") {
         block_message.style.display = 'none';

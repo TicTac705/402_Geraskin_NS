@@ -37,7 +37,7 @@ export function checkNumber() {
     if (field_getNumber.value === "") {
         alert("Введите число!");
     } else {
-        if (var_num_attempt !== 0) {
+        if (var_num_attempt !== 1) {
             getNumber = Number(field_getNumber.value);
             if (getNumber < hidden_number) {
                 var_num_attempt--;
