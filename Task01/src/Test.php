@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace App\Test;
 
-require_once "../vendor/autoload.php";
+use App\Fraction;
 
 function runTest()
 {
