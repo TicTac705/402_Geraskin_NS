@@ -1,0 +1,22 @@
+{
+    "name": "geraskin_vm/task01",
+    "authors": [
+        {
+            "name": "Vyacheslav Geraskin",
+            "email": "geraskin.slava@mail.ru"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
